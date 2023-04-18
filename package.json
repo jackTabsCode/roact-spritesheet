@@ -1,0 +1,30 @@
+{
+  "name": "@rbxts/roact-spritesheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.0-types.1",
+    "@rbxts/types": "^1.0.676",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@rbxts/roact": "^1.4.4-ts.0"
+  }
+}
