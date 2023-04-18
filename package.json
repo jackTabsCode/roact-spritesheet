@@ -9,6 +9,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"keywords": [],
+	"repository": "github:jackTabsCode/roact-spritesheet",
 	"author": "",
 	"license": "MIT",
 	"types": "out/index.d.ts",
