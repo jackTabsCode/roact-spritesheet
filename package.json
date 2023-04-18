@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/roact-spritesheet",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This is a handy spritesheet component for Roact. It can easily be used with Evaera's Radial Sprite Sheet generator, but works for general purpose spritesheets too.",
 	"main": "out/init.lua",
 	"scripts": {
